@@ -3,14 +3,9 @@
 <p align="center">
   <h3 align="center">Send mail notification to GitHub last committer email using Jenkins.</h3>
 
-  <p align="center">
-    <a href="https://github.com/ShaanCoding/ReadME-Generator/issues">Report Bug</a>
-    .
-    <a href="https://github.com/ShaanCoding/ReadME-Generator/issues">Request Feature</a>
-  </p>
 </p>
 
-![Contributors](https://img.shields.io/github/contributors/ShaanCoding/ReadME-Generator?color=dark-green) ![Issues](https://img.shields.io/github/issues/ShaanCoding/ReadME-Generator) 
+![Issues](https://img.shields.io/github/issues/ShaanCoding/ReadME-Generator) 
 
 ## Table Of Contents
 
