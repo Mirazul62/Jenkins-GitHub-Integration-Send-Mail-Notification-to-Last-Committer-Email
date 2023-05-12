@@ -72,7 +72,8 @@ Then Post-build Actions select Editable Email Notification from dropdown. Under 
 ![ProjectReciepientList](https://github.com/Mirazul62/Jenkins-GitHub-Integration-Send-Mail-Notification-to-Last-Committer-Email/assets/39739233/02cd0727-8082-48a0-af65-6bb4a726c8c0)
 ![DefaultSubjectAndContent](https://github.com/Mirazul62/Jenkins-GitHub-Integration-Send-Mail-Notification-to-Last-Committer-Email/assets/39739233/e9738bd8-5afe-4ac1-82fe-5189fed97b95)
 
-
+Then from Advance settings option go to Triggers and select Always if you want to send mail always or select Failure-Any if you want to send failure mail only and in send To option select Recipient List and hit save.
+![AdvanceSettingsTriggers](https://github.com/Mirazul62/Jenkins-GitHub-Integration-Send-Mail-Notification-to-Last-Committer-Email/assets/39739233/b613d790-52ff-49e3-8696-6f5a2b818b23)
 
 
 ### Prerequisites
