@@ -54,9 +54,11 @@ So, * * * * * means every minute, every hour, every day of the month, every mont
 
 Then under Build Steps option select Execute Windows batch command
 from drop down options and run the following Script:
+```
 for /f "usebackq delims=" %%a in (`git log -1 "--pretty=format:%%ae"`) do set COMMITTER_EMAIL=%%a
 echo The committer email is %COMMITTER_EMAIL%
 setx MAIL_RECIPIENT "%COMMITTER_EMAIL%"
+```
 
 this runs a for loop to extract the email address of the last committer using the git log command and setx command makes the variable available to other processes
 
