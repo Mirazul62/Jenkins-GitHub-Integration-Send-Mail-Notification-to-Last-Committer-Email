@@ -41,7 +41,7 @@ In this project, we will integrated Github repository with Jenkins and send mail
 ![FreeStyleProject](https://github.com/Mirazul62/Jenkins-GitHub-Integration-Send-Mail-Notification-to-Last-Committer-Email/assets/39739233/1a84d7ad-f485-4868-83ee-36c1a1ac3771)
 
 3.  Then navigate through Configure -> Source Code Management and select Git.
-provide the Repository URL(if needed provide credential too. As it is a public project so no credential is needed).
+provide the Repository URL(if needed provide credential too. Since it's a public project, no credentials are required.).
 
 ![SourceCodeManagement](https://github.com/Mirazul62/Jenkins-GitHub-Integration-Send-Mail-Notification-to-Last-Committer-Email/assets/39739233/7f5ce0c7-4883-4b18-9428-214b46f6d602)
 
