@@ -60,7 +60,7 @@ echo The committer email is %COMMITTER_EMAIL%
 setx MAIL_RECIPIENT "%COMMITTER_EMAIL%"
 ```
 
-this runs a for loop to extract the email address of the last committer using the git log command and setx command makes the variable available to other processes
+this runs a for loop to extract the email address of the last committer using the git log command and setx command makes the variable available to other processes.
 
 ![BuildSteps](https://github.com/Mirazul62/Jenkins-GitHub-Integration-Send-Mail-Notification-to-Last-Committer-Email/assets/39739233/c3265f4e-afa2-4f54-9c6d-f00eb1be4a67)
 
