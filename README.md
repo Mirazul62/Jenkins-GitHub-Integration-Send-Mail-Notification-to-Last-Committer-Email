@@ -57,7 +57,7 @@ So, * * * * * means every minute, every hour, every day of the month, every mont
 ![BuildTriggers](https://github.com/Mirazul62/Jenkins-GitHub-Integration-Send-Mail-Notification-to-Last-Committer-Email/assets/39739233/9d3a0817-6004-4398-9a01-a21ffeba4150)
 
 5. Under Build Steps option select Execute Windows batch command
-from drop down options and provide the following Script:
+from dropdown options and provide the following Script:
 ```
 for /f "usebackq delims=" %%a in (`git log -1 "--pretty=format:%%ae"`) do set COMMITTER_EMAIL=%%a
 echo The committer email is %COMMITTER_EMAIL%
@@ -73,7 +73,16 @@ this runs a for loop to extract the email address of the last committer using th
     ```
     $MAIL_RECIPIENT
     ```
- which store the email address. Under Default Subject and Default Content options set required data to be mailed.
+ which store the email address. Set the necessary information to be mailed under the Default Subject and Default Content settings.
+ for instance, I set Default Subject as
+ ```
+  $PROJECT_NAME - Build # $BUILD_NUMBER - $BUILD_STATUS!
+ ```
+ and Default Content as
+ ```
+  $PROJECT_NAME- Build # $BUILD_NUMBER - $BUILD_STATUS
+  check console output at $BUILD_URL to view the result.
+ ```
 
 ![ProjectReciepientList](https://github.com/Mirazul62/Jenkins-GitHub-Integration-Send-Mail-Notification-to-Last-Committer-Email/assets/39739233/02cd0727-8082-48a0-af65-6bb4a726c8c0)
 ![DefaultSubjectAndContent](https://github.com/Mirazul62/Jenkins-GitHub-Integration-Send-Mail-Notification-to-Last-Committer-Email/assets/39739233/e9738bd8-5afe-4ac1-82fe-5189fed97b95)
