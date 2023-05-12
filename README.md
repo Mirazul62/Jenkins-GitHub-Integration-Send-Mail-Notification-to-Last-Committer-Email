@@ -15,7 +15,7 @@
 ## Table Of Contents
 
 * [About the Project](#about-the-project)
-* [Built With](#built-with)
+* [Requirements](#requirements)
 * [Getting Started](#getting-started)
 * [Results](#results)
 
@@ -26,9 +26,9 @@ Jenkins is a self-contained, open source automation server which can be used to 
 
 In this project, we will integrated Github repository with Jenkins and send mail automatically to Github committer if build failed.
 
-## Built With
+## Requirements
 
-To do it we need to install Jenkins in our local Machine.
+* jenkins is needed to be installed in local machine
 
 ## Getting Started
 
